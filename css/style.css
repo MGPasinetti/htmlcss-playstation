@@ -13,11 +13,10 @@
 
 /* HEADER */
 header {
-    height: 3rem;
+    height: 2rem;
     background-color: rgb(var(--black-color));
 }
 
-header img {
-    /* width: 3rem; */
+header .col {
+    max-width: 6rem;
 }
-
