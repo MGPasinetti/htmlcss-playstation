@@ -1,0 +1,23 @@
+:root {
+    --black-color: 37, 37, 37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY CLASSES */
+
+
+/* HEADER */
+header {
+    height: 3rem;
+    background-color: rgb(var(--black-color));
+}
+
+header img {
+    /* width: 3rem; */
+}
+
