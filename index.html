@@ -22,22 +22,29 @@
 
 </head>
 
-<body class="container">
+<body>
     <!-- HEADER -->
-    <header>
-        <div class="row justify-content-end">
-            <div class="col align-items-center">
-                <img src="img/sony_logo.svg" alt="logo Sony">
+    <header class="fixed-top">
+        <div class="container">
+            <div class="sony_logo row justify-content-end">
+                <div class="col align-items-center">
+                    <img src="img/sony_logo.svg" alt="logo Sony">
+                </div>
             </div>
+
+            <!-- navbar -->
+            <nav class="navbar navbar-light navbar-expand-lg bg-light">
+                <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+                  ...
+                </div>
+              </nav>
+              
         </div>
 
-        <nav class="row justify-content-space-between">
-            <a class="col navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
-            <button class="col-auto navbar-toggler" type="button">
-                <i class="bi bi-list"></i>
-            </button>
-
-        </nav>
     </header>
 
 
