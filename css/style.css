@@ -9,7 +9,10 @@
 }
 
 /* UTILITY CLASSES */
-
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+  }
 
 /* HEADER */ 
 .sony_logo {
@@ -48,13 +51,20 @@ nav {
     border-radius: .25rem;
 }
 
-/* .dropdown-toggle::after {
+.dropdown-toggle::after {
     display: inline-block;
     margin-left: .255em;
     vertical-align: .255em;
+    content: none;
+    border: none;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: center;
+    /* vertical-align: .255em; */
     content: url(../img/chevron-down-solid.svg);
-    border-top: .3em solid;
-    border-right: .3em solid transparent;
-    border-bottom: 0;
-    border-left: .3em solid transparent;
-} */
+    width: 1rem;
+    /* color: black; */
+}
