@@ -27,6 +27,10 @@ body {
     font-size: 14px;
 }
 
+.rounded_4 {
+    border-radius: 1em;
+}
+
 
 /* HEADER */ 
 .sony_logo {
@@ -103,15 +107,17 @@ nav .chevron-solid {
 
 /* CARDS */
 .cards .col > * {
-    height: 100px;
+    min-height: 110px;
 }
 
 .cards .col .returnal {
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     background-size: cover;
+    background-position: left;
 }
 
 .cards .col .ratchet {
     background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
     background-size: cover;
+    background-position: center;
 }
