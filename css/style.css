@@ -67,11 +67,20 @@ nav .chevron-solid {
 .jumbotron {
     margin-top: 100px;
     height: 40rem;
+    position: relative;
+    color: white;
 }
 
-.jumbotron img {
+.jumbotron > img {
     height: 100%;
-    position: relative;
     object-fit: cover;
     object-position: center;
 }
+
+.jumbotron .row > div {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
