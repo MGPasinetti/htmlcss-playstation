@@ -12,6 +12,7 @@ body {
     background-color: brown;
 }
 
+
 /* UTILITY CLASSES */
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
@@ -25,6 +26,7 @@ body {
 .fs_8 {
     font-size: 14px;
 }
+
 
 /* HEADER */ 
 .sony_logo {
@@ -71,8 +73,10 @@ nav .chevron-solid {
     transform: rotate(0.5turn);
 }
 
+
 /* JUMBOTRON */
 .jumbotron {
+    width: 100%;
     margin-top: 100px;
     height: 40rem;
     position: relative;
@@ -97,3 +101,17 @@ nav .chevron-solid {
 }
 
 
+/* CARDS */
+.cards .col > * {
+    height: 100px;
+}
+
+.cards .col .returnal {
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+}
+
+.cards .col .ratchet {
+    background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+    background-size: cover;
+}
