@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: brown;
+}
+
 /* UTILITY CLASSES */
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
@@ -57,4 +61,11 @@ nav {
     display: inline-block;
 }
 
+/* JUMBOTRON */
+.jumbotron {
+    height: 40rem;
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
