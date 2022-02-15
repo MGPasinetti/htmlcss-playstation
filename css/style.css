@@ -43,29 +43,35 @@ nav {
     border: none;
 }
 
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+}
+
 .dropdown-toggle::after {
     display: none;
     content: none;
     border: none;
 }
 
-.nav-link .bi-chevron-up {
-    display: none;
+nav .chevron-solid {
+    width: .5rem;
 }
 
-.nav-link.show .bi-chevron-down {
-    display: none;
-}
-
-.nav-link.show .bi-chevron-up {
-    display: inline-block;
+.nav-link.show .chevron-solid {
+    transform: rotate(0.5turn);
 }
 
 /* JUMBOTRON */
 .jumbotron {
+    margin-top: 100px;
     height: 40rem;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
+.jumbotron img {
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
