@@ -11,12 +11,18 @@
 /* UTILITY CLASSES */
 
 
-/* HEADER */
-header {
+/* HEADER */ 
+header {            /* FIXME: fixed/sticky? */
     height: 2rem;
     background-color: rgb(var(--black-color));
 }
 
 header .col {
     max-width: 6rem;
+}
+
+/* NAVBAR */
+nav button {
+    height: 2rem;
+    border: 1px solid lightgrey;
 }
