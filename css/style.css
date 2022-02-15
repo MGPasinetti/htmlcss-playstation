@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 
@@ -44,8 +44,7 @@ body {
 
 /* navbar */
 nav {
-    margin-right: -.75rem;
-    margin-left: -.75rem;
+    
 }
 
 .navbar-toggler:focus {
