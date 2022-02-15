@@ -18,6 +18,14 @@ body {
     box-shadow: none;
 }
 
+.fs_7 {
+    font-size: 40px;
+}
+
+.fs_8 {
+    font-size: 14px;
+}
+
 /* HEADER */ 
 .sony_logo {
     height: 2rem;
@@ -80,7 +88,12 @@ nav .chevron-solid {
 .jumbotron .row > div {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 5rem;
+}
+
+.jumbotron button {
+    background-color: #D2522B;
+    border: #D2522B;
 }
 
 
