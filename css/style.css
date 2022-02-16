@@ -208,7 +208,11 @@ nav .chevron-solid {
     background-color: transparent;
 } 
 
-.new-releases .row > * {
-    padding-right: 0;
-    padding-left: 0;
+/* .new-releases .row {
+    margin-right: -(var(--bs-gutter-x));
+    padding-left: -(calc(var(--bs-gutter-x) * .5));
+} */
+
+.new-releases .card-body {
+    padding: .5rem 0;
 }
