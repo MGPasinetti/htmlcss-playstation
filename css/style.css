@@ -232,6 +232,13 @@ nav .chevron-solid {
     max-width: 330px;
 }
 
+.adventure .row > div {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    min-width: 490px;
+}
+
 
 /* NEW RELEASES */
 .new-releases {
