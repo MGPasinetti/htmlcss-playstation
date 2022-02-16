@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+/* GENERAL CLASSES */
 body {
     /* background-color: brown; */
 }
@@ -19,6 +20,14 @@ body {
 
 .row {
     margin: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #818181;
 }
 
 
@@ -38,6 +47,10 @@ body {
 
 .rounded_4 {
     border-radius: 1em;
+}
+
+.mb_6 {
+    margin-bottom: 8rem;
 }
 
 
@@ -145,6 +158,6 @@ nav .chevron-solid {
 }
 
 /* PLAYSTATION-5 */
-.play-5 h2 {
-    color: #3971f5;
+.play-5 .title h2 {
+    color: #0070D1;
 }
