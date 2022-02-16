@@ -22,6 +22,18 @@ body {
     margin: 0;
 }
 
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+
 h1 {
     margin-bottom: 1rem;
 }
@@ -215,4 +227,15 @@ nav .chevron-solid {
 
 .new-releases .card-body {
     padding: .5rem 0;
+}
+
+
+/* PLAYSTATION-4 */
+.play-4 .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: var(--bs-gutter-y);
 }
