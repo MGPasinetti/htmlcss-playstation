@@ -273,3 +273,7 @@ nav .chevron-solid {
 
 
 /* SOCIAL-MEDIA */
+.social .row {
+    max-width: 600px;
+    margin: 0 auto;
+}
