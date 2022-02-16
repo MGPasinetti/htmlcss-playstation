@@ -9,10 +9,6 @@
 }
 
 /* GENERAL CLASSES */
-body {
-    /* background-color: brown; */
-}
-
 .container-fluid {
     padding: 0;
     margin: 0;
@@ -32,6 +28,21 @@ body {
     background-clip: border-box;
     border: none;
     border-radius: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
 }
 
 h1 {
@@ -291,4 +302,8 @@ nav .chevron-solid {
 footer {
     background-color: #2A61AB;
     color: white;
+}
+
+footer .sie {
+    width: 95px;
 }
