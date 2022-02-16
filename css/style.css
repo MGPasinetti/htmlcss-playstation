@@ -220,11 +220,6 @@ nav .chevron-solid {
     background-color: transparent;
 } 
 
-/* .new-releases .row {
-    margin-right: -(var(--bs-gutter-x));
-    padding-left: -(calc(var(--bs-gutter-x) * .5));
-} */
-
 .new-releases .card-body {
     padding: .5rem 0;
 }
@@ -232,9 +227,6 @@ nav .chevron-solid {
 
 /* PLAYSTATION-4 */
 .play-4 .row > * {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
     padding-right: 0;
     padding-left: 0;
     margin-top: var(--bs-gutter-y);
