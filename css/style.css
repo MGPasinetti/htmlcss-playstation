@@ -166,11 +166,15 @@ nav .chevron-solid {
     color: #0070D1;
 }
 
-/* .play-5 .console .col {
-    width: 100%;
-} */
-
 .play-5 .console .col img {
     width: 100%;
     object-fit: cover;
+}
+
+.accessories .col > * {
+    min-height: 110px;
+}
+
+.accessories img {
+    width: 100%;
 }
