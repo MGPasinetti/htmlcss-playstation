@@ -177,4 +177,13 @@ nav .chevron-solid {
 
 .accessories img {
     width: 100%;
+    opacity: .8;
+}
+
+.accessories .col:hover {
+    border-bottom: 2px solid #0070D1;
+}
+
+.accessories .col:hover img {
+    opacity: 1;
 }
