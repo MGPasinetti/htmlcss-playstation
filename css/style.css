@@ -163,6 +163,7 @@ nav .chevron-solid {
     background-position: top;
 }
 
+
 /* PLAYSTATION-5 */
 .play-5 .title h2 {
     color: #0070D1;
@@ -186,4 +187,27 @@ nav .chevron-solid {
 /* ADVENTURE */
 .adventure .row .col img {
     max-width: 330px;
+}
+
+
+/* NEW RELEASES */
+.new-releases {
+    background-color: #1F1F1F;
+}
+
+.new-releases .col > * {
+    height: 200px;
+    max-width: 200px;
+}
+
+.new-releases .col .tony {
+    background-image: url(../img/tony-hawks-pro-skater-1-2-store-art.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.new-releases .col .crash {
+    background-image: url(../img/crash-bandicoot-4-its-about-time-store-art.jpg);
+    background-size: cover;
+    background-position: top;
 }
