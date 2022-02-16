@@ -76,6 +76,20 @@ nav .chevron-solid {
     transform: rotate(0.5turn);
 }
 
+.list_circle_blue li::marker {
+    color: #0070D1;
+}
+
+.list_circle_blue li {
+    list-style: disc;
+    margin-right: 1.5rem;
+}
+
+.list_circle_blue li a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /* JUMBOTRON */
 .jumbotron {
@@ -118,5 +132,10 @@ nav .chevron-solid {
 .cards .col .ratchet {
     background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
+}
+
+/* PLAYSTATION-5 */
+.play-5 h2 {
+    color: #3971f5;
 }
