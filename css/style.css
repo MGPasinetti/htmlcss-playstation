@@ -13,7 +13,7 @@ body {
     /* background-color: brown; */
 }
 
-.container {
+.container-fluid {
     padding: 0;
     margin: 0;
 }
@@ -164,4 +164,13 @@ nav .chevron-solid {
 /* PLAYSTATION-5 */
 .play-5 .title h2 {
     color: #0070D1;
+}
+
+/* .play-5 .console .col {
+    width: 100%;
+} */
+
+.play-5 .console .col img {
+    width: 100%;
+    object-fit: cover;
 }
