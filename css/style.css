@@ -42,7 +42,7 @@ h3 {
 }
 
 .fs_8 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .rounded_4 {
@@ -55,6 +55,32 @@ h3 {
 
 .mb_7 {
     margin-bottom: 2rem;
+}
+
+/* hero */
+.hero {
+    width: 100%;
+    margin-top: 100px;
+    height: 35rem;
+    position: relative;
+    color: white;
+}
+
+.hero > img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hero .row > div {
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+.hero button {
+    background-color: #D2522B;
+    border: #D2522B;
 }
 
 
@@ -118,30 +144,6 @@ nav .chevron-solid {
 
 
 /* JUMBOTRON */
-.jumbotron {
-    width: 100%;
-    margin-top: 100px;
-    height: 40rem;
-    position: relative;
-    color: white;
-}
-
-.jumbotron > img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.jumbotron .row > div {
-    position: absolute;
-    left: 0;
-    bottom: 5rem;
-}
-
-.jumbotron button {
-    background-color: #D2522B;
-    border: #D2522B;
-}
 
 
 /* CARDS */
@@ -180,3 +182,8 @@ nav .chevron-solid {
     opacity: 1;
 }
 
+
+/* ADVENTURE */
+.adventure .row .col img {
+    max-width: 330px;
+}
