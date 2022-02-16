@@ -252,4 +252,21 @@ nav .chevron-solid {
     width: 60%;
 }
 
+
 /* PLAY-STORE */
+
+
+/* PLAY-NOW */
+.play-now {
+    background-color: #161C3B;
+    color: white;
+}
+
+.play-now button {
+    background-color: white;
+    color: black;
+}
+
+.play-now .row img.mb-4 {
+    width: 60%;
+}
