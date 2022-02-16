@@ -52,10 +52,6 @@ body {
 }
 
 /* navbar */
-nav {
-    
-}
-
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -97,6 +93,10 @@ nav .chevron-solid {
 .list_circle_blue li a {
     text-decoration: none;
     color: black;
+}
+
+.list_circle_blue li a:hover {
+    color: #0070D1;
 }
 
 
