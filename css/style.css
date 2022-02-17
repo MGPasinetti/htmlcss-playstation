@@ -194,14 +194,12 @@ h3 {
 
 
 /* hero */
-/* .hero {
-    width: 100%;
-    margin-top: 100px;
-    position: relative;
+.hero {
     color: white;
+    background-size: cover;
 }
 
-.hero > img {
+/* .hero > img {
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -284,9 +282,7 @@ nav .chevron-solid {
 /* JUMBOTRON */
 .jumbotron {
     margin-top: 100px;
-    color: white;
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
     background-position: top;
 }
 
@@ -330,16 +326,10 @@ nav .chevron-solid {
 
 
 /* ADVENTURE */
-/* .adventure .row .col img {
-    max-width: 330px;
+.adventure {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
 }
-
-.adventure .row > div {
-    position: absolute;
-    top: 2rem;
-    left: 0;
-    min-width: 490px;
-} */
 
 
 /* NEW RELEASES */
