@@ -192,24 +192,11 @@ h3 {
     border: 2px solid white;
 }
 
-
 /* hero */
 .hero {
     color: white;
     background-size: cover;
 }
-
-/* .hero > img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-.hero .row > div {
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-} */
 
 
 /* HEADER */ 
@@ -306,7 +293,7 @@ nav .chevron-solid {
 
 /* PLAYSTATION-5 */
 .play-5 .title h2 {
-    color: #0070D1;
+    color: var(--bs-primary);
 }
 
 .play-5 .console .col img {
