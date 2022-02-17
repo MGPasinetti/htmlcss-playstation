@@ -100,6 +100,10 @@ h3 {
     box-shadow: 0 0 3px 3px rgba(0,0,0,0.2);
 }
 
+.card {
+    cursor: pointer;
+}
+
 /* btns */
 .btn {
     background-color: transparent;
@@ -284,18 +288,6 @@ nav .chevron-solid {
     min-height: 110px;
 }
 
-/* .cards .col .returnal {
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size: cover;
-    background-position: left;
-}
-
-.cards .col .ratchet {
-    background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
-    background-size: cover;
-    background-position: top;
-} */
-
 
 /* PLAYSTATION-5 */
 .play-5 .title h2 {
@@ -308,6 +300,7 @@ nav .chevron-solid {
 }
 
 .accessories .col {
+    border-bottom: 2px solid transparent;
     opacity: .8;
 }
 
