@@ -100,6 +100,20 @@ h3 {
     margin-bottom: 2rem;
 }
 
+.double_border {
+    padding: 2px;
+    display: block;
+    height: fit-content;
+    will-change: background,box-shadow;
+    transition: all .1s ease-in-out;
+    border-radius: 2rem;  
+}
+
+.btn:hover .double_border {
+    outline: none;
+    box-shadow: 0 0 0 2px black;
+}
+
 /* hero */
 .hero {
     width: 100%;
