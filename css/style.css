@@ -101,6 +101,10 @@ h3 {
 }
 
 /* btns */
+.btn {
+    background-color: transparent;
+}
+
 .btn-check:focus + .btn, .btn:focus {
     outline: 0;
     box-shadow: none;
@@ -108,15 +112,40 @@ h3 {
 
 .double_border {
     display: inline-block;
-    box-shadow: 0 0 0 4px #1C1F23;
 }
 
 .double_border:hover {
     margin: 0;
     padding: 2px;
     outline: none;
-    box-shadow: 0 0 0 2px #1C1F23;
 }
+
+.btn.black {
+    background-color: black;
+    color: white;
+}
+
+.double_border.black {
+    border: 4px solid black;
+}
+
+.double_border.black:hover {
+    border: 2px solid black;
+}
+
+.btn.red {
+    background-color: #D2522B;
+    color: white;
+}
+
+.double_border.red {
+    box-shadow: 0 0 0 4px #D2522B;
+}
+
+.double_border.red:hover {
+    box-shadow: 0 0 0 2px #D2522B;
+}
+
 
 /* hero */
 .hero {
@@ -139,10 +168,11 @@ h3 {
     bottom: 3rem;
 }
 
-.hero button {
+/* .hero button {
     background-color: #D2522B;
     border: #D2522B;
-}
+    color: white;
+} */
 
 
 /* HEADER */ 
