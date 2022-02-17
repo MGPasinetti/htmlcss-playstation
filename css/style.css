@@ -59,11 +59,6 @@ h3 {
 
 
 /* UTILITY CLASSES */
-.btn-check:focus + .btn, .btn:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
 .fs_7 {
     font-size: 40px;
 }
@@ -100,18 +95,27 @@ h3 {
     margin-bottom: 2rem;
 }
 
-.double_border {
-    padding: 2px;
-    display: block;
-    height: fit-content;
-    will-change: background,box-shadow;
-    transition: all .1s ease-in-out;
-    border-radius: 2rem;  
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+    box-shadow: 0 0 3px 3px rgba(0,0,0,0.2);
 }
 
-.btn:hover .double_border {
+/* btns */
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.double_border {
+    display: inline-block;
+    box-shadow: 0 0 0 4px #1C1F23;
+}
+
+.double_border:hover {
+    margin: 0;
+    padding: 2px;
     outline: none;
-    box-shadow: 0 0 0 2px black;
+    box-shadow: 0 0 0 2px #1C1F23;
 }
 
 /* hero */
